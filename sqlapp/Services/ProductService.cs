@@ -10,7 +10,7 @@ namespace sqlapp.Services
         private static string db_source = "tempdbserver.database.windows.net";
         private static string db_user = "vikas";
         private static string db_password = "admin@123";
-        private static string db_database = "testdb";
+        private static string db_database = "tempsqldb";
 
         private SqlConnection GetConnection()
         {
